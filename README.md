@@ -15,5 +15,5 @@ System for student management in university
 
 ## Installation
 ```bash
-git clone https://github.com/ваш_username/university-system.git
+git clone https://github.com/sad21320/university-system.git
 cd university-system
