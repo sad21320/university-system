@@ -1,10 +1,26 @@
-# ╚ёЄюЁш  шчьхэхэшщ
+# История изменений
+
+## [0.3.0] - 2024-01-15
+
+### Добавлено
+- Консольный интерфейс `ConsoleUI` 
+- Главный класс `Main` для запуска приложения
+- Интерактивное меню с выбором операций
+- Реализация взаимодействия с пользователем
+
+## [0.2.0] - 2024-01-15
+
+### Добавлено
+- Сервисный класс `UniversityService`
+- Метод `findStudentsByCourse()` для поиска студентов по курсу
+- Метод `filterCoursesByStudentCount()` для фильтрации курсов
+- Реализация бизнес-логики с использованием Stream API
 
 ## [0.1.0] - 2024-01-15
 
-### ─юсртыхэю
-- ┴рчют√х ъырёё√ ьюфхыхщ: `Student` ш `Course`
-- ╧юы : id, fullName, courseName фы  Student
-- ╧юы : name, teacher, students фы  Course  
-- ╠хЄюф√: getters, addStudent(), getStudentCount()
-- ╨хрышчрЎш  toString() фы  єфюсэюую т√тюфр
+### Добавлено
+- Базовые классы моделей: `Student` и `Course`
+- Поля: id, fullName, courseName для Student
+- Поля: name, teacher, students для Course
+- Методы: getters, addStudent(), getStudentCount()
+- Реализация toString() для удобного вывода
